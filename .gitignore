@@ -1,4 +1,9 @@
 .git 
 .DS_Store
-.jade
+jade
+node_modules
+stylus
+.gitignore
+gulpfile.js
+package.json
 dist/index-uncompress.html

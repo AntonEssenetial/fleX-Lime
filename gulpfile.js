@@ -26,7 +26,7 @@ gulp.task('stylus', function(){
   gulp.src('stylus/*.styl')
     .pipe(stylus({
       use: nib(),
-      compress: true
+      compress: false
       }))
     .pipe(gulp.dest('dist/css'))
     .pipe(connect.reload())
